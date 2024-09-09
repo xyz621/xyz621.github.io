@@ -4,17 +4,15 @@ body {
     font-size: 1.5vw;
 }
  
+/*#85A3B2, #FFE5AD, #33B864*/
+
+
 #logo { /* # for id */
-    color: white;
+    color: #33b864;
     margin: 0px;
     padding: 8px;
     font-family: "Fredoka One", sans-serif;
     width: 16%;
-    text-shadow:
-    1px 1px 0px black,   /* Bottom-right shadow*/
-    -1px 1px 0px black,  /* Bottom-left shadow*/
-    1px -1px 0px black,  /* Top-right shadow*/
-    -1px -1px 0px black; /* Top-left shadow*/
 }
 
 ul {
@@ -22,7 +20,7 @@ ul {
 }
 
 body > header {  
-    background-color: rgb(238, 157, 7); /*lolcolors*/
+    background-color: #ffe5ad; /*lolcolors*/
     display: flex;
     height: 12vh;
     align-items: center;
@@ -34,8 +32,8 @@ body > header {
 }
 
 #nav-ul > li {
-    padding: 8px;
-    margin: 16px;
+    padding: 2px;
+    margin: 1px;
 }
 
 body > header > nav > ul {
@@ -44,10 +42,10 @@ body > header > nav > ul {
 }
 
 .navbutton { /* . for class */
-    color: white;
+    color: #33b864;
     text-decoration: none;
-    padding: 12px;
-    border: 1px solid white;
+    padding: 10px;
+    border: 1px solid #33b864;
     border-radius: 10%;
 }
 
@@ -74,12 +72,12 @@ h2 {
 }
 
 body > footer {
-    background-color: orange;
+    background-color: #ffe5ad;
     display: flex;
 }
 
 img {
-    border-radius: 50%;
+    border-radius: 0%;
 }
 
 #footer-ul {
@@ -92,7 +90,9 @@ img {
 }
 
 #footer-ul > div > li > a {
-    color: white;
+    color: #33b864;
     text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    margin: 5px;
 }
     
